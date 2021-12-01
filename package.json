@@ -1,0 +1,25 @@
+{
+  "name": "puresystem-api",
+  "version": "1.0.0",
+  "description": "The API allowing the global creation of PureSystem.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/main.js",
+    "dev": "tsc -w & nodemon dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanekireal/puresystem-api.git"
+  },
+  "keywords": [],
+  "author": "Wesley Levasseur <contact@wesley-dev.codes> (kanekireal)",
+  "license": "CC-BY-NC-ND-4.0",
+  "bugs": {
+    "url": "https://github.com/puresystem-team/puresystem-api/issues"
+  },
+  "homepage": "https://github.com/puresystem-team/puresystem-api#readme",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}
